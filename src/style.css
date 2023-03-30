@@ -1,0 +1,37 @@
+.background{
+    background-color: blue;
+    background-image: url("https://img.freepik.com/free-vector/blue-abstract-background_1393-339.jpg?1&w=996&t=st=1680198356~exp=1680198956~hmac=4b41d644a4c36d471887876d3f57fb778387654279692c9c1d1f01460d03a0a3");
+background-repeat: no-repeat;
+background-size: cover;}
+.upload{
+    background-color: white;
+    box-shadow: 0px 0px 16px 1px white;
+    border-radius: 10px;
+}
+.uploadFile{
+    position: relative;
+}
+h1{line-height: 0px;}
+
+.ant-upload-list-item ant-upload-list-item-error{
+    height: 10px;
+}
+.ant-upload-wrapper .ant-upload-list{min-height: 78px;
+margin-bottom: 20px;}
+.ant-upload-wrapper .ant-upload-list .ant-upload-list-item-container{border-style: none;
+margin: 20px;}
+.Clossicon{position: absolute;
+    bottom: 32px;
+    background-color: blue;
+    padding: 3px;
+    border: 20 20 20 20;
+    border-radius: 50px;
+    color: white;}
+    .ant-upload-wrapper .ant-upload-list .ant-upload-list-item-error .ant-upload-list-item-actions .anticon{color: white;}
+    .ant-upload-wrapper .ant-upload-list.ant-upload-list-picture .ant-upload-list-item-uploading{
+        border-style: none;
+        box-shadow: 0px 0px 16px 1px grey;
+    }
+    .ant-upload-wrapper .ant-upload-list .ant-upload-list-item .ant-upload-list-item-actions .anticon{
+        color: white;
+    }

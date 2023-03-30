@@ -1,7 +1,12 @@
 .App {
   text-align: center;
 }
-
+.ant-upload-list-item-container {
+  position: absolute;
+  top: 500px;
+}
+.ant-upload-list .ant-upload-list-picture{  position: absolute;
+  top: 500px;}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
